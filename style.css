@@ -19,7 +19,7 @@ h1 {
 }
 
 .topNav {
-  margin-top: 200px;
+  margin-top: 150px;
 }
 
 .topNav ul {
@@ -32,9 +32,17 @@ h1 {
 }
 
 .topNav ul a {
-  color: white;
+  color: #aaf112;
+  background-color: #112aaf;
+  padding: 10px 15px 10px 15px;
+  border:  1px  solid;
+  text-decoration: none;
 }
 
+.topNav ul a:hover{
+  color: #112aaf;
+  background-color: #aaf112;
+}
 article {
   width: 960px;
   margin: 50px auto;
@@ -61,15 +69,4 @@ footer {
   text-align: center;
   padding: 30px;
 }
-
-
-
-
-
-
-
-
-
-
-
 
